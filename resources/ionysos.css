@@ -1,0 +1,77 @@
+body {
+    background: #292d3f;
+    font-family: 'Vollkorn', serif;
+}
+
+.blurb h2 {
+    color: rgba(151, 152, 192, 0.945);
+    font-weight: 100;
+    font-size: 2.8rem;  
+}
+
+.blurb p {
+    color: rgba(151, 152, 192, 0.945);
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px; 
+    margin-bottom: 100px
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: rgba(201, 201, 218, 0.952);
+    font-size: 1.2rem;
+}
+
+
+#mainNavbar .nav-link:hover {
+    color: rgba(151, 152, 192, 0.945);
+}
+
+#mainNavbar .navbar-brand {
+    color: rgba(189, 189, 206, 0.945);
+    font-size: 2.0rem;
+    font-family: "Mr Dafoe", cursive;
+}
+
+#headingGroup span {
+    color: rgba(85, 86, 141, 0.753);
+}
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4.0rem;
+    color: rgba(201, 201, 218, 0.952);
+}
+
+.navbar.scrolled {
+    background: rgba(29, 29, 44, 0.945);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.img-fluid {
+    opacity: 0.55;
+    margin-top: 100px;
+}
+#headingGroup .logga {
+    color: rgba(201, 201, 218, 0.952);
+    font-family: 'Yellowtail', cursive;
+}
+
+.dbi {
+    font-family: 'Yellowtail', cursive;
+}
